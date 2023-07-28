@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*
+{
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+
+}
+.header
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+.header img
+{
+  width: 15%;
+}
+@media screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+ .navbar
+{
+    position: fixed;
+  display: flex;
+  justify-content:space-around  ;
+  width: 100%;
+  background-color: rgb(146, 146, 205);
+  height: 50px;
+  overflow-y: hidden;
+    padding: 10px;
+    font-weight: bold;
+    align-items: center;
+    z-index: 1;
+} 
+.navbar a
+{
+    margin-left:  70px;
+    text-decoration: none;
+}
+
+
+
+.image img
+{
+  width: 400px;
+}
+
+button{
+  margin-top: 30px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.outer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+}
+.container
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+}
+
+@media screen and (max-width: 767px) {
+  .outer {
+    flex-direction: column; 
+  }
+  
+  .image img {
+    max-width: 100%; 
+  }
+}
+
+.image img {
+  width: 100%; 
+  max-width: 300px; 
+}
+
+.container {
+  width: 100%; 
+  max-width: 400px; 
+}
+
+.auth .input {
+  width: 100%; 
+  margin: 0.4rem !important;
+}
+
+.error
+{
+  color: red;
+}
+
+.btn:disabled {
+  cursor: auto;
+}
+  
+
+.head
+{
+  cursor: pointer;
+  font-size: larger;
+    
+}
+
+
+
+
+.home {
+  display: flex;
+  background-image: url("./Home1.jpg");
+  height: 110vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+
+.home img {
+    height: 200%;
+    width: 70%;
+}
+.space
+{
+  height: 100px;
+}
+.home-btn{
+  margin-top: 78vh;
+  margin-right: 80vh;
+}
+
+.course-head
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.card
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: auto;
+}
+.cards
+{
+  margin-top: 30px;
+  display: flex;
+ justify-content: space-around;
+ width: 100%;
+  
+}
+
+#cards-down
+{ 
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.content:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+#Academics {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.page-container {
+  position: relative;
+}
+
+.alert {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 9999; 
+}
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+} 
+#aacademics
+{
+  display: flex;
+  flex-direction: column;
+  height: 110px;
+}
+
+.carousel ul {
+  overflow-x: unset;
+}
+.success-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.profile-container {
+
+  max-width: 600px;
+  height: 80vh;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-details p {
+  margin: 8px 0;
+}
+.contact-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.contact-form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.contact-form div {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .contact-page {
+    max-width: 100%;
+  }
+}
+.profile-details strong {
+  font-weight: bold;
+}
+
+
+.tick-mark {
+  animation: tickAnimation 1s ease-in-out;
+}
+
+@keyframes tickAnimation {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.btn-1
+{
+  width: fit-content;
+}
+.payment
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+}
+
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+}
+
+.upi-form-group {
+  display: none;
+}
+
+button {
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+select[value="upi"] ~ .upi-form-group {
+  display: block;
+}
